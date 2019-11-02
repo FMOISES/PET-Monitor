@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BOB</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <style type="text/css">
+    @import url(estilo.css);
+  </style>
+
+<script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCP-Ux6J8a_amxNER9kpLCQGeQopWYRUAU” >
+    </script>
+    <script type="text/javascript">
+      function initialize() {
+        var mapOptions = {
+          center: new google.maps.LatLng(-34.397, 150.644),
+          zoom: 8,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var map = new google.maps.Map(document.getElementById("map_canvas"),
+            mapOptions);
+      }
+    </script>
+</head>
+
+<body>
+   
+    <Table border="5" class="jumbotron jumbotron-fluid">
+            <center>
+        <tr>
+            <div class="jumbotron jumbotron-fluid"><center><h1>BOB MARLEY</h1></center></div>
+            <th>
+                <div style="overflow:hidden;width: 786 px;position: relative;"><iframe width="200px" height="222px"
+                        src="https://maps.google.com/maps?width=786&amp;height=440&amp;hl=pt-br&amp;q=cam-20+(T%C3%ADtulo)&amp;ie=UTF8&amp;t=k&amp;z=12&amp;iwloc=B&amp;output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    <div
+                        style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;">
+                        <small style="line-height: 1.8;font-size: 2px;background: #fff;">Powered by <a
+                                href="https://embedgooglemaps.com/en/">embedgooglemaps EN</a> & <a
+                                href="https://newyorkhoponhopoffbus.nl">new york city freestyle pass: hop-on, hop-off
+                                tour en ferry</a></small></div>
+                    <style>
+                        #gmap_canvas img {
+                            max-width: none !important;
+                            background: none !important
+                        }
+                    </style>
+                </div><br />
+            </th>
+        <th><h2>localização lat</h2></th>
+        <th><h2>localização long</h2></th>
+        <th><h2>data/hora</h2></th>
+
+        </tr>
+        <tr>
+            <th>
+
+            </th>
+            <th>
+                    -21.700219
+            </th>
+            <th>
+                    -41.253370
+            </th>
+            <th><p>Ultima atualização: 10:59
+                    domingo, 20 de outubro de 2019 (BRT)
+                    Horário em Campos dos Goytacazes, RJ</p></th>
+        </tr>
+</center>
+    </Table>
+
+</body>
+
+</html>

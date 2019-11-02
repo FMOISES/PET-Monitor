@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastros</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+    <style type="text/css">
+      @import url(estilo.css);
+    </style>
+  
+  <script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCP-Ux6J8a_amxNER9kpLCQGeQopWYRUAU” >
+      </script>
+      <script type="text/javascript">
+        function initialize() {
+          var mapOptions = {
+            center: new google.maps.LatLng(-34.397, 150.644),
+            zoom: 8,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+          };
+          var map = new google.maps.Map(document.getElementById("map_canvas"),
+              mapOptions);
+        }
+      </script>
+
+
+
+</head>
+
+<body>
+    <div id="menu">
+        <div class="principal">
+            
+            <div id="titulo">
+                <h1>PET<img class="icone" src="vt.png">Monitor
+                </h1>
+            </div>
+            
+        </div>
+        <hr id="linha">
+    </div>
+    <center>    
+      <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+    </form>
+  </center>
+
+
+
+
+
+
+    <div  class="jumbotron jumbotron-fluid">
+ <center>
+     <h1>Meus pets Cadastrados</h1>
+<div id="lista">
+        <div class="list-group">
+           
+                <a href="#" class="list-group-item list-group-item-action active">
+                  João
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">bhow</a>
+                <a href="Bob.html" target="_blank" class="list-group-item list-group-item-action">BOB MARLEY</a>
+                <a href="#" class="list-group-item list-group-item-action">Jonas</a>
+                <a href="#" class="list-group-item list-group-item-action disabled">LULU</a>
+               
+        </div>
+</div>
+ </center>
+</div>
+
+
+
+
+
+
+    <div >
+            <nav aria-label="Navegação de página exemplo">
+                
+                    <ul class="pagination">
+                      <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Anterior">
+                          <span aria-hidden="true">&laquo;</span>
+                          <span class="sr-only">Anterior</span>
+                        </a>
+                      </li>
+                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Próximo">
+                          <span aria-hidden="true">&raquo;</span>
+                          <span class="sr-only">Próximo</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav> 
+    </div>
+    <div class="rodape">
+        <tr>
+            <ul class="lista">
+                <li><a href="INDEX.HTML">Home</a></li>
+                <li><a href="sobre.html">conhecer PET Monitor</a></li>
+                <li>&copy;PET_Monitor</li>
+              </ul>
+            
+        </tr>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+@charset "utf-8";
+#menu{
+    background-color: aquamarine;
+}
+#conteudo{
+    background-color: greenyellow;
+}
+#titulo{
+    text-align: center;
+}
+#linha{
+    color: aliceblue;
+}
+.icone1{
+    width: 100%;
+}
+.icone{
+    width: 10%;
+}
+body{
+	background-image:url(http://storage.googleapis.com/wzuk/assets/images/9564821_lel/9564821_lel_1450.jpg);
+}
+#entre{
+    text-align-last: left;
+}
+#dropdownMenuLink{
+    width: 5%;
+}
+.rodape{
+	background-color:aquamarine;
+	opacity:0.7;
+}
+#sobre{
+	opacity:0.9;
+}
+.jumbotron{
+	opacity:0.9;
+}
+.lista{
+    color: blue;
+}
+#tabela{
+   border-color: black;
+
+}
+.titulo{
+    text-align: center;
+}
+#login{
+    width: 45%;
+    height: 45%;
+}
+#lista{
+    text-align: center;
+    width: 70%;
+}
+#botao{
+    color: blue;
+}

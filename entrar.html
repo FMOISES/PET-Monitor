@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Entrar na minha conta</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+    <style type="text/css">
+      @import url(estilo.css);
+    </style>
+  
+  <script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCP-Ux6J8a_amxNER9kpLCQGeQopWYRUAU” >
+      </script>
+      <script type="text/javascript">
+        function initialize() {
+          var mapOptions = {
+            center: new google.maps.LatLng(-34.397, 150.644),
+            zoom: 8,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+          };
+          var map = new google.maps.Map(document.getElementById("map_canvas"),
+              mapOptions);
+        }
+      </script>
+  
+
+</head>
+<body id="fundo">
+
+    <div id="menu">
+        <div class="principal">
+    
+          <div id="titulo">
+            <h1>PET<img class="icone" src="vt.png">Monitor
+            </h1>
+          </div>
+    
+        </div>
+        <hr id="linha">
+        </div>
+        </div>
+
+
+
+<br>
+<br>
+<br>
+  <center>
+        <div class="jumbotron jumbotron-fluid" id="login" class="border border-success">
+                <form class="px-4 py-3" action="login_vai.php" method="post">
+                  <div class="form-group">
+                    <h1>Acessar</h1>
+                    <br>
+                    <br>
+                    <label for="exampleDropdownFormEmail1">Email</label>
+                    <input type="email" name="login" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleDropdownFormPassword1">Senha</label>
+                    <input type="password" class="form-control" id="exampleDropdownFormPassword1" name="senha" placeholder="Insira sua Senha">
+                  </div>
+                  <div class="form-group">
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                      <label class="form-check-label" for="dropdownCheck">
+                        Mantenha Conectado
+                      </label>
+                    </div>
+                  </div>
+                  <div>
+                    <input id="botao" type="submit" value="entrar" id="entrar" name=""><br>
+                </form>
+                  </div>
+
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="cadastro.html">Não tem cadastro? faça aqui!</a>
+                <a class="dropdown-item" href="INDEX.HTML">Voltar a HOME</a>
+              </div>
+</div>
+</center>
+
+<div class="rodape">
+  <tr>
+    <ul class="lista">
+      <li><a href="INDEX.HTML">Home</a></li>
+      <li><a href="sobre.html">conhecer PET Monitor</a></li>
+      <li>&copy;PET_Monitor</li>
+    </ul>
+  
+  </tr>
+</div>
+
+</body>
+</html>
